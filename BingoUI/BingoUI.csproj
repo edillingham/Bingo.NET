@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{206709B8-9C12-4398-A183-731B9AE49AEB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BingoUI</RootNamespace>
+    <AssemblyName>BingoUI</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BingoCardResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BingoCardResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BingoCardCellControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BingoCardCellControl.Designer.cs">
+      <DependentUpon>BingoCardCellControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardGeneratorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardGeneratorForm.Designer.cs">
+      <DependentUpon>CardGeneratorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CellLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ResizableBingoCardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ResizableBingoCardControl.Designer.cs">
+      <DependentUpon>ResizableBingoCardControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HotKeyController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WinPatternListItem.cs" />
+    <Compile Include="WinPatternLeafNode.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BingoCardResource.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BingoCardResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BingoCardCellControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BingoCardCellControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardGeneratorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CardGeneratorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResizableBingoCardControl.resx">
+      <DependentUpon>ResizableBingoCardControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\C_CND_SPLOTCHS.JPG" />
+    <None Include="resources\C_CND_WHTCLOUD.JPG" />
+    <None Include="resources\A_CND_3COLOR1.JPG" />
+    <None Include="resources\B_CND_GOLDEN.JPG" />
+    <None Include="resources\B_CND_LIGHTING.JPG" />
+    <None Include="resources\B_CND_NICEBVL.JPG" />
+    <None Include="resources\C_CND_WILD.JPG" />
+    <None Include="resources\B_CND_BUMP MAPS.JPG" />
+    <None Include="resources\C_CND_GOLD.JPG" />
+    <None Include="resources\C_CND_MARBLE1D.JPG" />
+    <None Include="resources\C_CND_WBANDS.JPG" />
+    <None Include="resources\C_CND_MARBLE1C.JPG" />
+    <None Include="resources\C_CND_WARM GREY.JPG" />
+    <None Include="resources\C_CND_WATER.JPG" />
+    <None Include="resources\A_CND_AQUA.JPG" />
+    <None Include="resources\A_CND_BLACKMARB.JPG" />
+    <None Include="resources\B_CND_BLUEFABRIC2.JPG" />
+    <None Include="resources\B_CND_GOLDBAR.JPG" />
+    <None Include="resources\B_CND_GREEN TAN.JPG" />
+    <None Include="resources\C_CND_GREENMALACHITE.JPG" />
+    <None Include="resources\C_CND_GREY.JPG" />
+    <None Include="resources\C_CND_LIGHTBLUEMARB.JPG" />
+    <None Include="resources\C_CND_METAL WEAVE.JPG" />
+    <None Include="resources\C_CND_PITTED GREY.JPG" />
+    <None Include="resources\C_CND_PURPLEREACTION.JPG" />
+    <None Include="resources\C_CND_RED BROWN.JPG" />
+    <None Include="resources\C_CND_ROCK.JPG" />
+    <None Include="resources\C_CND_SAND.JPG" />
+    <None Include="resources\C_CND_SAND_1.JPG" />
+    <None Include="resources\C_CND_SANDSTONE.JPG" />
+    <Content Include="resources\marble.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BingoLib\BingoLib.csproj">
+      <Project>{DE7FBD41-7504-4FD8-AFA3-5FBCC36E999F}</Project>
+      <Name>BingoLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

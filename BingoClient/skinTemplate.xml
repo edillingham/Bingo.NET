@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<skinInfo>
+		<id/>
+		<name/>
+		<description/>
+		<author/>
+		<version/>
+		<url/>
+	</skinInfo>
+	<skinSettings>
+		<demoScreen>
+			<backgroundImage src=""/>
+		</demoScreen>
+
+		<inputScreen></inputScreen>
+
+		<gameScreen>
+
+			<backgroundImage src=""/>
+
+			<cardStyle>
+				<backgroundImage src="bg.jpg" />
+				<cellStyle>
+					 <backgroundColor unselected="Color.White"  selected="Color.Green" special="Color.Yellow" winPattern="Color.Red" />
+					<font size="18pt" color="Color.Black" bold="true" face="Arial Black" />
+				</cellStyle>
+			</cardStyle>
+
+			<buttonStyle>
+					<font size="18pt" color="Color.Black" bold="true" face="Arial Black" />
+					<backgroundColor selected="Color.Yellow" />
+			</buttonStyle>
+			
+		</gameScreen>
+
+	</skinSettings>
+</skin>

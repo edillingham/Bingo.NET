@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="BingoLib.BingoCard">
+    <Position X="1.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BingoCard.cs</FileName>
+      <HashCode>AAAACgAAAAIBAIAAAAAAAAAIwAwAAIAAgACAAAAQAgA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Delegate Name="BingoLib.BingoCard.DaubDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BingoCard.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="BingoLib.BingoCardGenerator" Collapsed="true">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BingoCardGenerator.cs</FileName>
+      <HashCode>AAAAAAAAAoAAAAAAAAAAAAAAAAAACAAAAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BingoLib.BingoGame">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BingoGame.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BingoLib.BingoSession">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BingoSession.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BingoLib.CardColumns" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BingoCard.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACDkAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>
